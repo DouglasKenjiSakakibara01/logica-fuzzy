@@ -47,7 +47,7 @@ decisao.input['colesterol'] = 150
 decisao.input['pressao'] = 80
 decisao.input['taxa_cardiaca'] =50
 
-# metodo de media ponderada
+# metodo centroide
 decisao.compute()
 
 print("doenca cardiaca:", decisao.output['doenca_cardiaca'])
